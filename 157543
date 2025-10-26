@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Technology Stream - Our School</title>
+  <style>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("plc.jpg");
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+}
+
+header {
+  background: #001316b7;
+  backdrop-filter: blur(100px);
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.61);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1px;
+  background: #252525;
+  color: white;
+}
+BUTTON{
+    COLOR:rgb(3, 199, 101);
+    background-color: rgba(0, 21, 138, 0.486);
+    padding:  10px;
+    border-radius: 15px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+#l{
+  color: #ffffff;
+  padding:8px;
+  border-radius: 5px;
+  background-color: rgba(255, 238, 0, 0.678);
+}
+a{
+  color: #000000;
+}
+</style>
+</head>
+<body>
+  <header>
+    <img src="e.png">
+    <h1>KEKUNAGOLLA NATIONAL SCHOOL</h1>
+    <h2>Technology Stream</h2>
+    <p>Welcome to the future of innovation!</p>
+    
+    <nav>
+      <ul>
+        <button id="l"><a href="#about">About</a></button>
+        <button id="l"><a href="#subjects">Subjects</a></button>
+        <button id="l"><a href="#contact">Contact</a></button>
+        <button id="l"><a href="gallary.html">Gallary</a></button>
+        <button id="l"><a href="Form.html">Form</a></button>
+        <button id="l"><a href="achivement.html">achivement</a></button>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About the Technology Stream</h2>
+    <p>Technology Stream is one of the main subject streams in the Sri Lankan G.C.E. Advanced Level (A/L) education system. It was introduced to provide students with practical and theoretical knowledge in technological and engineering-related fields.
+      The Technology stream focuses on practical knowledge in ICT, Engineering, and Applied Sciences. It prepares students for tech-based careers and university education.</p>
+  </section>
+
+  <section id="subjects">
+    <h2>Subjects Offered</h2>
+   
+      # Engineering Technology/Biosystem Technology<br>
+      # Information & Communication Technology (ICT)/Agriculture<br>
+      # Science for Technology<br><br>
+    </ul>
+    <button onclick="showMessage()">Click to know more!</button>
+    <p id="msg"></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: 26techatkns@gmail.com</p>
+    <p>Phone: +94 760443501</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 KEKUNAGOLLA NATIONAL SCHOOL - Technology Stream</p>
+  </footer>
+<script>javascript
+function showMessage() {
+  document.getElementById("msg").innerText = "Main Subjects in Technology Stream:1. Engineering Technology (ET)  - Focuses on engineering principles, tools, machinery, and processes. - Includes hands-on skills like workshop practices and technical drawing.2. Bio Systems Technology (BST)  - Related to agriculture, environment, food production, and biotechnology.- Includes practicals like farming systems, eco management, and lab work.3. Science for Technology (SFT)  - A mix of physics, chemistry, biology, and maths basics.- Provides the scientific foundation for understanding tech applications.4. ICT (Optional/Additional)  - Covers computer systems, software, programming, and networks.Why Choose Technology Stream?- For students interested in engineering, tech, IT, agriculture, or environmental sciences.- Leads to university courses in engineering, architecture, ICT, biosystems, etc.- Provides practical skills for both higher education and technical careers.Technology stream opens doors to careers in IT, Engineering, Robotics and more!";
+}</script>
+
+</body>
+</html>
