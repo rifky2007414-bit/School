@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  padding: 30px;
+  background: #00754e;
+  color: white;
+  border-radius: 15px;
+  border:#04bdca solid 1px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.image {
+  width: 250px;
+  margin: 15px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  text-align: center;
+}
+
+.image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.image p {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.image:hover {
+  transform: scale(1.50);
+}
+</style>
+  <meta charset="UTF-8">
+  <title>Technology Stream Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="title">Our Technology Stream Gallery</h1>
+  <div class="gallery">
+    <div class="image">
+      <img src="plc.jpg" alt="Lab Activity">
+      <p>Engineering Workshop</p>
+    </div>
+    <div class="image">
+      <img src="plc.jpg" alt="Student Project">
+      <p>Student Project Display</p>
+    </div>
+    <div class="image">
+      <img src="plc.jpg" alt="Biosystems Work">
+      <p>Biosystem Experiment</p>
+    </div>
+    <div class="image">
+      <img src="plc.jpg" alt="ICT Lab">
+      <p>ICT Practical Session</p>
+    </div>
+    <div class="image">
+      <img src="plc.jpg" alt="Science Lab">
+      <p>Science Lab</p>
+    </div>
+    <div class="image">
+      <img src="plc.jpg" alt=" 2017 TECH Exhibition">
+      <p>2017 TECH Exhibition</p>
+    </div>
+    <div class="image">
+      <img src="plc.jpg" alt="TECH Building">
+      <p>TECH Building</p>
+    </div>
+    <div class="image">
+      <img src="plc.jpg" alt="entrance">
+      <p>Main Entrance</p>
+    </div>
+  </div>
+</body>
+</html>
